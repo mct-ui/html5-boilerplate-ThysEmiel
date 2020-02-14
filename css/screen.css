@@ -1,3 +1,9 @@
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
 html {
     font-size: 16px;
     line-height: 1.5;
@@ -6,6 +12,13 @@ html {
     padding: 48px 24px 24px;
     scroll-behavior: smooth;
 }
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
 
 ::-moz-selection {
     background: #44C8F5;
@@ -26,9 +39,15 @@ html {
 */
 
 img {
-    min-width: 100%;
+    max-width: 100%;
     vertical-align: top;
 }
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
 
 h1 {
     font-family: "Times New Roman", serif;
