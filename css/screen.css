@@ -9,7 +9,7 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
-    padding: 48px 24px 24px;
+    padding: 24px 24px 0;
     scroll-behavior: smooth;
 }
 
@@ -19,12 +19,6 @@ html {
  *
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
-    background: #44C8F5;
-    color: white;
-    text-shadow: none;
-}
 
 ::selection {
     background: #44C8F5;
