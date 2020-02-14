@@ -3,7 +3,8 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
-    padding: 24px 24px 0;
+    padding: 48px 24px 24px;
+    scroll-behavior: smooth;
 }
 
 ::-moz-selection {
@@ -92,6 +93,25 @@ hr {
 a {
     color: RoyalBlue;
     transition: all .1s ease-in-out;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
 }
 
 a:hover,
