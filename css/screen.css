@@ -13,6 +13,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    max-width: 40em; /* 1em = 16px (root font size) */
+    margin: 0 auto;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
